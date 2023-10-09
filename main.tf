@@ -62,6 +62,8 @@ resource "aws_security_group" "jenkins_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
-output "instance_ip" {
-  value = aws_instance.aws_ins_web.public_ip
+output "jenkins_url" {
+  description = "Jenkins url"
+  value = "${aws_instance.jenkins_server.public_ip}:8080"
 }
+
