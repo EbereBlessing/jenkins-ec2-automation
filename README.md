@@ -1,9 +1,4 @@
 # AUTOMATING JENKINS SET ON AWS EC2 WITH TERRAFORM
-Terraform is an IaC tool that defines and provides infrastructure using a declarative configuration language. It provides a means to automate the creation and management of cloud resources, resulting in infrastructure deployments that are efficient, repeatable, and versioned.
-
-Jenkins is an open-source automation server that provides hundreds of plugins to support any project's creation, deployment, and automation. You can automate the Jenkins installation process using Terraform  to deploy Jenkins on Amazon Web Services (AWS) Elastic Compute Cloud (EC2) instances.
-
-Below is a step-by-step guide to automating the provisioning of EC2 instances and installing Jenkins on the  EC2 instance using Terraform.
 ## Environment
 - Terraform 
 - AWS Account  free tier
